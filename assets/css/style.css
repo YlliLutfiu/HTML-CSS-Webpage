@@ -906,18 +906,3 @@ footer{
     background-color: black;
     color: white;
 }
-
-/* -------------------------------------------*/
-
-@media (max-width: 500px){
-    header{
-        width: 500px;
-        background-color: #f2f2f2;
-    }
-    body{
-        width: 500px;
-    }
-    footer{
-        width: 500px;
-    }
-}
