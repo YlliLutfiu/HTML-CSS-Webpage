@@ -1,0 +1,923 @@
+:root{
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: Syne;
+    background-color: white;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #212529;
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+}
+
+section{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+header {
+    margin: 0;
+    padding: 4px 8px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(240, 239, 239);
+}
+
+ul{
+    width: 380px;
+    padding: 0px;
+    margin-left: 560px;
+    margin-right: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    font-size: 15px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #212529;
+}
+
+nav li:hover {
+    border-bottom: 2px solid black;
+}
+
+div {
+    display: block;
+}
+
+.advert{
+    position: relative;
+    word-wrap: break-word;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(rgba(240, 239, 239, 0.534), rgba(240, 239, 239, 0.801)), url(../images/background.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+a.menu-items{
+    text-decoration: none;
+}
+
+.ad-txt{
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    color: rgb(92, 88, 88);
+    line-height: 34.5px;
+    transform: none;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.logo-e-header{
+    height: 55px;
+    width: auto;
+}
+
+.logo {
+    background-color: none;
+    margin-left: 105px;
+}
+
+.icons {
+    margin-right: 105px;
+}
+
+.icons i{
+    color: #212529;
+    font-size: 26px;
+}
+
+.fa-facebook-f{
+    padding-right: 25px;
+}
+
+.fa-twitter{
+    padding-right: 25px;
+}
+
+
+
+.text-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    min-width: 200px;
+    width: 100vw;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.advert-img{
+    width: 38%;
+}
+
+.ad-img {
+    width: 100%;
+}
+
+.ad-text {
+    margin-right: 180px;
+    width: 30%;
+    align-items: center;
+    text-align: left;
+}
+
+.ad-title {
+    font-weight: 700;
+    font-size: 47px;
+    font-style: normal;
+    color: #212529;
+    line-height: 51.7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+    letter-spacing: 0;
+}
+
+.about-us{
+    background-color: white;
+    height: 700px;
+}
+
+.about{
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 47px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    font-family: 'Syne', sans-serif;
+    padding-top: 80px;
+    margin-bottom: 650px;
+}
+
+.about-us .about{
+    position: absolute;
+}
+
+img{
+    width: 450px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background: none;
+    border: 3px solid #ff2b09;
+    font-size: 14px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+    background-color: #ff2b09;
+    color: white;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.card-boxes{
+    display: flex;
+    margin-left: 105.5px;
+    margin-right: 105.5px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    height: 330px;
+}
+
+.heart {
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 30%;
+}
+
+.smile {
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 30%;
+}
+
+.sun {
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 30%;
+}
+
+i{
+    color: red;
+}
+
+.fa-6x{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;
+    display: block;
+}
+
+
+.smile-txt, .sun-txt, .heart-txt {
+    font-size: 20px;
+}
+
+.card-boxes h5 {
+    color: #212529;
+    font-size: 18px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.card-boxes p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.specifications{
+    display: flex;
+    height: 620px;
+    width: 80%;
+    justify-content: center;
+}
+
+.spec-image{
+    padding: 0%;
+    width: 50%;
+    height: 100%;
+}
+
+.spec{
+    width: 100%;
+    height: 100%;
+}
+
+.spec-text ul{
+    display: list-item;
+    text-align: left;
+    margin: 0;
+    margin-top: 60px;
+    height: 461px;
+    padding-left: 60px;
+    width: 75%;
+}
+
+.spec-text{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.spec-title{
+    text-align: left;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    font-size: 47px;
+    font-family: 'Syne', sans-serif;
+    padding-top: 20px;
+    width: 75%;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.cosmetic-spec {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.spec-list li{
+    border-bottom: 1.5px solid #212529;
+    padding: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212529;
+    line-height: 25.26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+    letter-spacing: 0;
+    width: 100%;
+}
+
+.spec-txt{
+    font-weight: 400;
+    font-size: 23px;
+    font-style: italic;
+    color: rgb(98 98 98);
+    line-height: 34.5px;
+    text-decoration: none;
+    text-transform: none;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0;
+    text-align: left;
+    padding-left: 60px;
+}
+
+#item1{
+    border-top: 1.5px solid #212529;
+}
+
+.epara{
+    padding-left: 289.5px;
+    font-size: 26px;
+}
+
+.edyta{
+    padding-left: 282.5px;
+    font-size: 26px;
+}
+
+.etreta{
+    padding-left: 295px;
+    font-size: 26px;
+}
+
+.checklist-txt{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #f2f2f2;
+}
+
+.checklist-title{
+    font-weight: 700;
+    font-size: 47px;
+    font-style: normal;
+    color: #212529;
+    line-height: 51.7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+    word-wrap: break-word;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    font-stretch: ultra-expanded;
+}
+
+.checklist-link{
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    color: rgb(98 98 98);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.checklist-link:hover{
+    border-bottom: 2.5px solid #ff2b09;
+    color: #ff2b09;
+}
+
+.first-products{
+    align-items: center;
+    height: 680px;
+}
+
+.first-products-main{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    width: 80%;
+}
+
+.first-product-txt{
+    width: 50%;
+    padding-left: 60px;
+    text-align: left;
+    align-items: center;
+}
+
+.f-p-title{
+    font-weight: 700;
+    font-size: 47px;
+    font-style: normal;
+    color: #212529;
+    line-height: 51px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+    padding-bottom: 10px;
+}
+
+.f-p-txt1{
+    font-weight: 400;
+    font-size: 23px;
+    font-style: italic;
+    color: rgba(119, 119, 119, 0.966);
+    line-height: 34.5px;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    padding-bottom: 10px;
+}
+
+.f-p-txt2{
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    color: #212529;
+    line-height: 25.26px;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    width: 100%;
+}
+
+.first-product-img{
+    height: 100%;
+    width: 50%;
+}
+
+.product1{
+    width: 100%;
+    height: 100%;
+}
+
+.second-products{
+    /* border: 2px solid black; */
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
+
+.second-products-img{
+    width: 50%;
+    height: 100%;
+}
+
+.second-products-2{
+    width: 50%;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.product2{
+    width: 100%;
+    height: 100%;
+}
+
+.offer-img{
+    width: 35%;
+    padding-top: 25%;
+    padding-bottom: 10px;
+}
+
+.second-products-title{
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    color: #212529;
+    line-height: 33px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+    padding-bottom: 20px;
+}
+
+.product2-link{
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    color: rgb(98 98 98);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.product2-link:hover{
+    border-bottom: 2.5px solid #ff2b09;
+    color: #ff2b09;;
+}
+
+/* sectioni */
+.third-prdoucts{
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+/* main-divi */
+.porducts3-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+/* divi par */
+.third-products-text{
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+}
+
+.product3-title{
+    font-weight: 700;
+    font-size: 47px;
+    font-style: normal;
+    color: black;
+    line-height: 51.7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+    padding-top: 10%;
+}
+
+.product3-light-txt{
+    font-weight: 400px;
+    font-size: 23px;
+    color: rgb(98 98 98);
+    line-height: 34.5px;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.product3-txt{
+    font-weight: 400;
+    font-size: 16.84px;
+    font-style: normal;
+    color: #212529;
+    text-decoration: none;
+    line-height: 25.26px;
+    font-family: 'Syne', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* divi dyt */
+.third-products-image{
+    width: 50%;
+    align-items: flex-end;
+    text-align: center;
+    height: 100%;
+}
+
+.care1{
+    width: 315px;
+    height: 100%;
+    padding-left: 65px;
+}
+
+.care2{
+    width: 310px;
+    height: 100%;
+    padding-left: 30px;
+}
+
+/* sectioni */
+.best-sellers, 
+.our-products, 
+.our-products-2{
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+}
+
+/* div main */
+.bestsellers-main, 
+.our-products-main, 
+.products2-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+/* divi par */
+.first-b-s, 
+.pr1,
+.pr1-2{
+    width: 32%;
+    height: 100%;
+}
+
+/* divi dyt*/
+.second-b-s, 
+.pr2, 
+.pr2-2{
+    width: 32%;
+    height: 100%;
+}
+
+/* divi tret*/
+.third-b-s, 
+.pr3, 
+.pr3-2{
+    width: 32%;
+    height: 100%;
+}
+
+.seller1, .seller2, .seller3,
+.prod1, .prod2, .prod3, 
+.prod1-2, .prod2-2, .prod3-2{
+    width: 100%;
+    height: 100%;
+}
+
+.best-sellers-title, 
+.our-products-title, 
+.recommended-title{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 47px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    font-family: 'Syne', sans-serif;
+    margin-bottom: 80px;
+    margin-top: 120px;
+}
+
+.recommended-title{
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+/* sectioni */
+.recommended-logos{
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+/* divi main */
+.recommended-main{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* divat */
+.rec1, .rec2, .rec3, .rec4, .rec5, .rec6, .rec7, .rec8{
+    width: 9%;
+    height: 100%;
+}
+
+.r1, .r2, .r3, .r4, .r5, .r6, .r7, .r8{
+    width: 100%;
+    height: 100%;
+}
+
+/* section */
+.contact-us{
+    height: 450px;
+    margin-top: 200px;
+}
+
+/* div main */
+.contact-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.contact-us-text{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+}
+
+.contact-us-form{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#name{
+    width: 50%;
+    height: 80px;
+}
+
+#email{
+    width: 50%;
+    height: 80px;
+}
+.tparat{
+    display: flex;
+    padding-bottom: 0px;
+}
+
+#message{
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    height: 150px;
+}
+
+.contact-title{
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+    letter-spacing: 0.8px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.contact-light-txt{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 23px;
+    line-height: 34.5px;
+    text-decoration: none;
+    text-transform: none;
+    font-family: 'EB Garamond', serif;
+    padding-bottom: 10px;
+}
+
+.contact-us-text a{
+    color: #212529;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Syne', sans-serif;
+}
+
+.contact-us-text a:hover{
+    color: red;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+/* main div i footer */
+.footer-main{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.footer-logo{
+    width: 20%;
+}
+
+.f-logo{
+    width: 55%;
+    height: 55%;
+    margin-right: 25%;
+}
+
+.support, 
+.social{
+    width: 20%;
+    text-align: left;
+    line-height: 30px;
+    margin-right: 10%;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;
+    color: black;
+    font-family: 'Syne', sans-serif;
+}
+
+.footer-form{
+    width: 20%;
+    text-align: left;
+    align-items: center;
+}
+
+.footer-form-title{
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;
+    color: black;
+    line-height: 24px;
+    font-family: 'Syne', sans-serif;
+    width: 70%;
+}
+
+.support a, .social a{
+    color: black;
+}
+
+.support a:hover, .social a:hover{
+    color: red;
+}
+
+#footer-email{
+    width: 60%;
+    height: 50px;
+    background-color: #f2f2f2;
+    border: 1px solid gray;
+    padding-left: 10px;
+    margin-top: 10px;
+    display: inline;
+}
+
+#footer-button{
+    width: 25%;
+    border: 2px solid black;
+}
+
+#footer-button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* -------------------------------------------*/
+
+@media (max-width: 500px){
+    header{
+        width: 500px;
+        background-color: #f2f2f2;
+    }
+    body{
+        width: 500px;
+    }
+    footer{
+        width: 500px;
+    }
+}
